@@ -4,27 +4,27 @@
     color: #333;
     font-family: Lato, sans-serif;
 }
-.aaa {
+.manual {
     width: 500px;
     margin: 0 auto;
     display: block;
     text-align: right;
 }
-.aaa__image {
+.manual__image {
     width: 100%;
 }
-.aaa .more_inf {
+.manual .more_inf {
     font-family: fantasy, cursive;
 }
 
 @media (max-width: 768px) {
 
-  .aaa { 
+  .manual { 
       text-align: center;
   }
 
 }
-.centered-main-page-element {
+.menu {
     display: block;
     width: 500px;
     margin: 0 auto 0;
