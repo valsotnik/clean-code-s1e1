@@ -34,7 +34,7 @@
     display: inline-block;
     flex-grow: 1;
 }
-.task-wrapper {
+.menu__task-wrapper {
     display: flex;
 }
 .list {
@@ -42,7 +42,7 @@
     padding: 0px;
 }
 .list__item, 
-.title {
+.menu__title {
     list-style: none;
 }
 .input,
@@ -63,7 +63,7 @@
 }
 
 /* Heading */
-.title,
+.menu__title,
 .label[for="new-task"] {
     color: #333;
     font-weight: 700;
@@ -123,12 +123,12 @@
 .list__item > .input[type="text"] {
     width: 226px;
 }
-.delete__image {
+.list__delete-image {
     height: 2em;
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
 }
-.delete__image:hover {
+.list__delete-image:hover {
     transform: rotateZ(0);
 }
 
