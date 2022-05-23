@@ -13,7 +13,7 @@
 .manual__image {
     width: 100%;
 }
-.manual .more_inf {
+.manual .manual__link {
     font-family: fantasy, cursive;
 }
 
@@ -34,7 +34,7 @@
     display: inline-block;
     flex-grow: 1;
 }
-.task-row-wrapper {
+.task-wrapper {
     display: flex;
 }
 .list {
@@ -142,10 +142,10 @@
 .list .list__item .input[type="text"] {
     display: none;
 }
-.list .editMode .input[type="text"] {
+.list .edit-mode .input[type="text"] {
     display: inline-block;
     width: 224px;
 }
-.list .editMode .label {
+.list .edit-mode .label {
     display: none;
 }
