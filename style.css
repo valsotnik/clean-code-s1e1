@@ -21,7 +21,7 @@
     width: 100%;
 }
 .manual__link {
-    font-family: fantasy, cursive;
+    font-family: Fantasy, cursive;
 }
 .menu {
     display: block;
@@ -119,12 +119,12 @@
 .list__item > .input[type="text"] {
     width: 226px;
 }
-.list__delete-image {
+.list__delete {
     height: 2em;
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
 }
-.list__delete-image:hover {
+.list__delete:hover {
     transform: rotateZ(0);
 }
 
